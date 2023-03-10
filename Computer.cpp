@@ -5,10 +5,10 @@
 Computer::Computer() : name("Computer") {}
 
 Move* Computer::makeMove() {
+    moveFactory computerMoveFactory;
+    Move* computerMove = computerMoveFactory.createMove("Rock");
 
-    Move* rock = new Rock();
-
-    return rock;
+    return computerMove;
 }
 
-std::string Computer::getName(){ return name; }
+std::string Computer::getName(){ return name;}

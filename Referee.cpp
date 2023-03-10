@@ -13,11 +13,10 @@ Player *Referee::refGame(Player *player1, Player *player2)
     if(move1->compareMove(move2)){
         return player1;
     }
-    else{
+    else if(move2->compareMove(move1)){
         return player2;
     }
-    
-
-    
-
+    else{
+        return nullptr;
+    }
 }
