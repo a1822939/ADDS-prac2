@@ -8,7 +8,8 @@ private:
     std::string name;
 public:
     Scissors();
-
+    std::string getName(); 
+    bool compareMove(Move* opponentMove);
 };
 
 #endif

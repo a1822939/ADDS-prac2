@@ -8,7 +8,8 @@ private:
     std::string name;
 public:
     Pirate();
-
+    std::string getName(); 
+    bool compareMove(Move* opponentMove);
 
 };
 

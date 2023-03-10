@@ -8,6 +8,8 @@ private:
     std::string name;
 public:
     Paper();
+    std::string getName(); 
+    bool compareMove(Move* opponentMove);
 
 };
 

@@ -10,11 +10,12 @@
 #include "Robot.h"
 #include "Pirate.h"
 #include "Zombie.h"
+#include "moveFactory.h"
 #include <iostream>
 
 int main()
 {
-    std::vector<Move*> moveList;
+    
 
     Player *player1 = new Computer();
     Player *player2 = new Human();

@@ -7,12 +7,16 @@ Human::Human()
 }
 Human::Human(std::string name) : name(name) {}
 
-Move* Human::makeMove()
+Move* Player::makeMove()
 {
+    std::string move;
+    std::cout<<"Enter move: ";
+    std::cin>>move;
 
-    std::cout << "Enter move: ";
-    std::cin >> ;
+    moveFactory humanMoveFactory;
 
-    return move;
+    Move* humanMove = humanMoveFactory.createMove(move);
+
+    return humanMove;
 }
 std::string Human::getName(){ return name; }

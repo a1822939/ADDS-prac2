@@ -8,7 +8,8 @@ private:
     std::string name;
 public:
     Robot();
-
+    std::string getName(); 
+    bool compareMove(Move* opponentMove);
 
 };
 

@@ -8,6 +8,8 @@ private:
     std::string name;
 public:
     Monkey();
+    std::string getName(); 
+    bool compareMove(Move* opponentMove);
 
 };
 

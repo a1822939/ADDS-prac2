@@ -8,7 +8,8 @@ private:
     std::string name;
 public:
     Zombie();
-
+    std::string getName(); 
+    bool compareMove(Move* opponentMove);
 
 };
 

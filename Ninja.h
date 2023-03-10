@@ -8,7 +8,8 @@ private:
     std::string name;
 public:
     Ninja();
-
+    std::string getName(); 
+    bool compareMove(Move* opponentMove);
 };
 
 #endif

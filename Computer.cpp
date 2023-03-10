@@ -1,11 +1,14 @@
 #include <iostream>
 #include "Computer.h"
 
+
 Computer::Computer() : name("Computer") {}
 
-char Computer::makeMove(){
-    char move = 'R';
-    return move;
+Move* Player::makeMove() {
+
+    Move* rock = new Rock();
+
+    return rock;
 }
 
 std::string Computer::getName(){ return name; }
