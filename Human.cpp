@@ -7,12 +7,11 @@ Human::Human()
 }
 Human::Human(std::string name) : name(name) {}
 
-char Human::makeMove()
+Move* Human::makeMove()
 {
-    char move;
 
     std::cout << "Enter move: ";
-    std::cin >> move;
+    std::cin >> ;
 
     return move;
 }

@@ -1,10 +1,13 @@
-#ifndef ROCK_H
-#define ROCK_H
+#ifndef NINJA_H
+#define NINJA_H
 
 #include "Move.h"
 
-class Rock{
+class Ninja: public Move{
+private:
+    std::string name;
 public:
+    Ninja();
 
 };
 

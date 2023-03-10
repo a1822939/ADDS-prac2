@@ -7,7 +7,7 @@ class Monkey: public Move{
 private:
     std::string name;
 public:
-
+    Monkey();
 
 };
 

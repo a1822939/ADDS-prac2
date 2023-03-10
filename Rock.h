@@ -3,11 +3,13 @@
 
 #include "Move.h"
 
-class Rock: public Move{
+class Rock : public Move
+{
 private:
     std::string name;
-public:
 
+public:
+    Rock();
 };
 
 #endif

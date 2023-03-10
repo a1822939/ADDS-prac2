@@ -2,10 +2,20 @@
 #include "Computer.h"
 #include "Human.h"
 #include "Referee.h"
+#include "Rock.h"
+#include "Paper.h"
+#include "Scissors.h"
+#include "Monkey.h"
+#include "Ninja.h"
+#include "Robot.h"
+#include "Pirate.h"
+#include "Zombie.h"
 #include <iostream>
 
 int main()
 {
+    std::vector<Move*> moveList;
+
     Player *player1 = new Computer();
     Player *player2 = new Human();
     Referee referee = Referee();

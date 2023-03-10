@@ -7,6 +7,7 @@ class Zombie: public Move{
 private:
     std::string name;
 public:
+    Zombie();
 
 
 };

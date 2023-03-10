@@ -7,7 +7,7 @@ class Paper: public Move{
 private:
     std::string name;
 public:
-
+    Paper();
 
 };
 

@@ -7,6 +7,7 @@ class Robot: public Move{
 private:
     std::string name;
 public:
+    Robot();
 
 
 };

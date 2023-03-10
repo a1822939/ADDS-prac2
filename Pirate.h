@@ -7,6 +7,7 @@ class Pirate: public Move{
 private:
     std::string name;
 public:
+    Pirate();
 
 
 };

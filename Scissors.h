@@ -3,11 +3,11 @@
 
 #include "Move.h"
 
-class Scissor: public Move{
+class Scissors: public Move{
 private:
     std::string name;
 public:
-
+    Scissors();
 
 };
 
