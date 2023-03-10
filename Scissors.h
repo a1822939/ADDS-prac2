@@ -2,6 +2,8 @@
 #define SCISSORS_H
 
 #include "Move.h"
+#include "Paper.h"
+
 
 class Scissors: public Move{
 private:

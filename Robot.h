@@ -2,6 +2,8 @@
 #define ROBOT_H
 
 #include "Move.h"
+#include "Ninja.h"
+#include "Zombie.h"
 
 class Robot: public Move{
 private:

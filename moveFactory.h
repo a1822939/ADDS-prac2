@@ -17,7 +17,7 @@ private:
 
 public:
     
-    Move* createMove(std::string shapeType) {}
+    Move* createMove(std::string moveType);
 
 };
     

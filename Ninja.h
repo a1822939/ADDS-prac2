@@ -2,6 +2,8 @@
 #define NINJA_H
 
 #include "Move.h"
+#include "Pirate.h"
+#include "Zombie.h"
 
 class Ninja: public Move{
 private:

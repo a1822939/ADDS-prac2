@@ -2,9 +2,13 @@
 
 Rock::Rock() : name("Rock") {}
 
-bool Move::compareMove(Move *opponentMove)
+std::string Rock::getName(){
+    return name;
+}
+
+bool Rock::compareMove(Move *opponentMove)
 {
-    if (typeid(opponentMove) == typeid(Scissors))
+    if (typeid(*opponentMove) == typeid(Scissors))
     {
         return 1;
     }

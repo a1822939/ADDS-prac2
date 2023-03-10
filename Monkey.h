@@ -2,6 +2,8 @@
 #define MONKEY_H
 
 #include "Move.h"
+#include "Ninja.h"
+#include "Robot.h"
 
 class Monkey: public Move{
 private:

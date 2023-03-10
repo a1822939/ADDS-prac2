@@ -15,7 +15,6 @@
 
 int main()
 {
-    
 
     Player *player1 = new Computer();
     Player *player2 = new Human();

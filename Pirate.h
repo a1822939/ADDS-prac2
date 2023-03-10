@@ -2,6 +2,8 @@
 #define PIRATE_H
 
 #include "Move.h"
+#include "Robot.h"
+#include "Monkey.h"
 
 class Pirate: public Move{
 private:

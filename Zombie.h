@@ -2,6 +2,8 @@
 #define ZOMBIE_H
 
 #include "Move.h"
+#include "Pirate.h"
+#include "Monkey.h"
 
 class Zombie: public Move{
 private:
@@ -10,6 +12,7 @@ public:
     Zombie();
     std::string getName(); 
     bool compareMove(Move* opponentMove);
+
 
 };
 

@@ -14,7 +14,7 @@ public:
     Human();
     Human(std::string name);
     std::string getName();
-    Move *makeMove();
+    Move* makeMove();
 };
 
 #endif

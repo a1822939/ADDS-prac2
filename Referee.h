@@ -1,6 +1,7 @@
 #ifndef REFEREE_H
 #define REFEREE_H
 #include "Player.h"
+#include "Move.h"
 
 class Referee
 {

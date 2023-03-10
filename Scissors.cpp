@@ -2,9 +2,13 @@
 
 Scissors::Scissors() : name("Scissors") {}
 
-bool Move::compareMove(Move *opponentMove)
+std::string Scissors::getName(){
+    return name;
+}
+
+bool Scissors::compareMove(Move *opponentMove)
 {
-    if (typeid(opponentMove) == typeid(Paper))
+    if (typeid(*opponentMove) == typeid(Paper))
     {
         return 1;
     }

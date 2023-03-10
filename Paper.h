@@ -2,6 +2,7 @@
 #define PAPER_H
 
 #include "Move.h"
+#include "Rock.h"
 
 class Paper: public Move{
 private:

@@ -1,8 +1,7 @@
 #include "moveFactory.h"
 
-Move * moveFactory::createMove(std::string moveType)
+Move* moveFactory::createMove(std::string moveType)
 {
-
     if (moveType == "Rock")
     {
         return new Rock();

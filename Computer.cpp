@@ -4,7 +4,7 @@
 
 Computer::Computer() : name("Computer") {}
 
-Move* Player::makeMove() {
+Move* Computer::makeMove() {
 
     Move* rock = new Rock();
 

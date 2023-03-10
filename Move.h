@@ -1,7 +1,5 @@
 #ifndef MOVE_H
 #define MOVE_H
-#include "Player.h"
-#include "moveFactory.h"
 #include <typeinfo>
 #include <string>
 

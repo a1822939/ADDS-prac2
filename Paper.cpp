@@ -2,9 +2,13 @@
 
 Paper::Paper() : name("Paper") {}
 
-bool Move::compareMove(Move *opponentMove)
+std::string Paper::getName(){
+    return name;
+}
+
+bool Paper::compareMove(Move *opponentMove)
 {
-    if (typeid(opponentMove) == typeid(Rock))
+    if (typeid(*opponentMove) == typeid(Rock))
     {
         return 1;
     }

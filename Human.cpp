@@ -7,7 +7,7 @@ Human::Human()
 }
 Human::Human(std::string name) : name(name) {}
 
-Move* Player::makeMove()
+Move* Human::makeMove()
 {
     std::string move;
     std::cout<<"Enter move: ";
