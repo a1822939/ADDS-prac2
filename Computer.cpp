@@ -1,3 +1,5 @@
+// Worked with Isaac Gasparini and Tommy Hick
+
 #include <iostream>
 #include "Computer.h"
 
